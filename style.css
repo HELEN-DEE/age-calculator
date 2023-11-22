@@ -9,7 +9,19 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 86%);
     padding: 6rem 0;
-}   
+} 
+
+.flex {
+    display: flex;
+  }
+  
+  .flex-ai-c {
+    align-items: center;
+  }
+  
+  .flex-jc-c {
+    justify-content: center;
+  }
 
 .container {
     background-color: #fff;
