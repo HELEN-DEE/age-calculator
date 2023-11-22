@@ -67,6 +67,11 @@ input {
     font-family: inherit;
 }
 
+.input-form {
+    gap: 2rem;
+    
+}
+
 
 .side-by-side {
     display: flex; 
