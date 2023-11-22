@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Age calculator app</title>
-
-</head>
-<body>
-<section class="age-calc container">
-  
-    <form action="#" class="input-form flex flex-jc-c">
-        <div class="block">
-          <label for="">Day</label>
-          <input type="text" placeholder="DD" id="inputDay">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <section class="container">
+      <form action="#" class="input-form flex">
+        <div class="inputs flex flex-ai-c">
+          <div class="block">
+            <label for="">Day</label>
+            <input type="text" placeholder="DD" id="inputDay" />
+          </div>
+          <div class="block">
+            <label for="">Month</label>
+            <input type="text" placeholder="MM" id="inputMonth" />
+          </div>
+          <div class="block">
+            <label for="">Year</label>
+            <input type="text" placeholder="YYYY" id="inputYear" />
+          </div>
         </div>
-        <div class="block">
-          <label for="">Month</label>
-          <input type="text" placeholder="MM" id="inputMonth">
-        </div>
-        <div class="block">
-          <label for="">Year</label>
-          <input type="text" placeholder="YYYY" id="inputYear">
-        </div>
-
         <button id="input-btn" class="flex flex-ai-c flex-jc-c">
-          <img src="assets/images/icon-arrow.svg" alt="">
+          <img src="assets/images/icon-arrow.svg" alt="" />
         </button>
-    </form>
-    <hr>
-    <div class="age-output">
-      <div class="side-by-side">
-        <h1><span id="year-result">--</span> years</h1>
+      </form>
+      <hr />
+      <div class="age-output">
+        <div class="side-by-side">
+          <h1><span id="year-result">--</span> years</h1>
+        </div>
+        <div class="side-by-side">
+          <h1><span id="month-result">--</span> months</h1>
+        </div>
+        <div class="side-by-side" day-result>
+          <h1><span id="day-result">--</span> days</h1>
+        </div>
       </div>
-      <div class="side-by-side" >
-        <h1><span id="month-result">--</span> months</h1>
-      </div>
-      <div class="side-by-side" day-result>
-        <h1><span id="day-result">--</span> days</h1>
-      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a
+        rel="noopener"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">HELEN DEE</a>.
     </div>
-  
-</section>
-<div class="attribution">
-  Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="#">HELEN DEE</a>.
-</div>
-  
-<script src="main.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
