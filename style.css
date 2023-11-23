@@ -125,3 +125,28 @@ img {
   top: 120px;
   outline: none;
 }
+
+@media screen and (max-width: 780px) {
+  body {
+    padding: 0;
+  }
+  .container {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 20px 10px;
+  }
+
+  input {
+    padding: 6px 10px;
+    width: 6rem;
+  }
+
+  .side-by-side h1 {
+    font-size: 3rem;
+  }
+
+  #input-btn {
+    top: 100px;
+    right: 160px;
+  }
+}
